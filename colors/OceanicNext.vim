@@ -128,12 +128,12 @@ endfunction
   call s:hi('Function',                           s:blue,   '',       '',          '')
 
   call s:hi('Identifier',                         s:cyan,   '',       '',          '')
-  call s:hi('Include',                            s:blue,   '',       '',          '')
+  call s:hi('Include',                            s:purple, '',       '',          '')
   call s:hi('Keyword',                            s:purple, '',       '',          '')
 
   call s:hi('Label',                              s:yellow, '',       '',          '')
   call s:hi('Number',                             s:orange, '',       '',          '')
-  call s:hi('Operator',                           s:base05, '',       '',          '')
+  call s:hi('Operator',                           s:orange, '',       '',          '')
   call s:hi('PreProc',                            s:yellow, '',       '',          '')
   call s:hi('Repeat',                             s:yellow, '',       '',          '')
   call s:hi('Special',                            s:cyan,   '',       '',          '')
@@ -166,25 +166,32 @@ endfunction
 
 
   " TreeSitter stuff
-  call s:hi('TSInclude',                          s:cyan,   '',       '',          '')
+  call s:hi('TSInclude',                          s:purple, '',       '',          '')
   call s:hi('TSPunctBracket',                     s:cyan,   '',       '',          '')
-  call s:hi('TSPunctDelimiter',                   s:base07, '',       '',          '')
+  call s:hi('TSPunctDelimiter',                   s:cyan,   '',       '',          '')
+  call s:hi('TSPunctSpecial',                     s:cyan,   '',       '',          '')
   call s:hi('TSParameter',                        s:base07, '',       '',          '')
-  call s:hi('TSType',                             s:blue,   '',       '',          '')
-  call s:hi('TSFunction',                         s:cyan,   '',       '',          '')
+  call s:hi('TSType',                             s:yellow, '',       '',          '')
+  call s:hi('TSFunction',                         s:blue,   '',       '',          '')
 
   call s:hi('TSTagDelimiter',                     s:cyan,   '',       '',          '')
-  call s:hi('TSProperty',                         s:yellow, '',       '',          '')
+  call s:hi('TSProperty',                         s:base07, '',       '',          '')
   call s:hi('TSMethod',                           s:blue,   '',       '',          '')
   call s:hi('TSParameter',                        s:yellow, '',       '',          '')
   call s:hi('TSConstructor',                      s:base07, '',       '',          '')
-  call s:hi('TSVariable',                         s:base07, '',       '',          '')
-  call s:hi('TSOperator',                         s:base07, '',       '',          '')
+  call s:hi('TSVariable',                         s:base06, '',       '',          '')
+  call s:hi('TSOperator',                         s:orange, '',       '',          '')
   call s:hi('TSTag',                              s:base07, '',       '',          '')
   call s:hi('TSKeyword',                          s:purple, '',       '',          '')
   call s:hi('TSKeywordOperator',                  s:purple, '',       '',          '')
   call s:hi('TSVariableBuiltin',                  s:red,    '',       '',          '')
   call s:hi('TSLabel',                            s:cyan,   '',       '',          '')
+
+  call s:hi('TSConditional',                      s:purple, '',       '',          '')
+  call s:hi('TSNamespace',                        s:base07, '',       '',          '')
+  call s:hi('TSSymbol',                           s:green,  '',       '',          '')
+  call s:hi('TSException',                        s:red,    '',       '',          '')
+
 
   call s:hi('SpellBad',                           '',       '',       'undercurl', '')
   call s:hi('SpellLocal',                         '',       '',       'undercurl', '')
