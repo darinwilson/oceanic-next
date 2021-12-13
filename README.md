@@ -1,3 +1,9 @@
+This contains some personal tweaks to the [Oceanic-Next.vim theme](https://github.com/mhartington/oceanic-next), and is based on [another fork](https://github.com/etrnal70/oceanic-next) which contains some tweaks for [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter).
+
+The only real change I've made is to make the search highlighting more muted.
+
+-----
+
 # Oceanic-Next.vim
 
 Oceanic-Next.vim is a neovim theme inspired by [Oceanic Next for Sublime](https://github.com/voronianski/oceanic-next-color-scheme).
